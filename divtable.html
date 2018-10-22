@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>div table</title>
+    <style>
+    * { box-sizing: border-box;}
+
+.container {
+  width:60%;
+  height:20rem;
+  margin:0 auto;
+  border:0.4em ridge red;
+  color:white;
+  background-color: #324768;
+  
+}
+.half {
+  width:50%;
+  height:100%;
+}
+.left {
+  float:left;
+}
+.big {
+  width: 50%;
+  height: 50%;
+}
+  .inside {
+  font-size: 1.5rem;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  font-style: italic;
+}
+.small {
+  width: 33.33%;
+  height: 33.33%;
+}
+.cell {
+  border:0.15rem outset white;
+  display:table;
+}
+    </style>
+</head>
+<body>
+  <div class="container">
+    <div class="half left">
+        <div class="big cell left">
+              <div class="inside">1</div>
+           </div>
+        <div class="big cell left">
+              <div class="inside">2</div>
+           </div>
+        <div class="big cell left">
+              <div class="inside">3</div>
+           </div>
+         <div class="big cell left">
+               <div class="inside">4</div>
+            </div>
+    </div>
+      <div class="half left">
+        <div class="small cell left">
+             <div class="inside">5</div>
+           </div>
+        <div class="small cell left">
+             <div class="inside">6</div>
+           </div>
+        <div class="small cell left">
+             <div class="inside">7</div>
+           </div>
+        <div class="small cell left">
+             <div class="inside">8</div>
+           </div>
+        <div class="small cell left">
+             <div class="inside">9</div>
+           </div>
+        <div class="small cell left">
+             <div class="inside">10</div>
+           </div>
+        <div class="small cell left">
+             <div class="inside">11</div>
+           </div>
+        <div class="small cell left">
+             <div class="inside">12</div>
+           </div>
+        <div class="small cell left">
+             <div class="inside">13</div>
+           </div>
+       </div>
+   </div>
+</body>
